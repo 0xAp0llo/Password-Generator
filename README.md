@@ -50,37 +50,37 @@ python main.py [options]
 
 ## 📝 Examples
 
-Generate a default password (16 characters with all character types):
+### Generate a default password (16 characters with all character types):
 ```bash
 python main.py
 ```
 
-Generate a longer password (24 characters):
+### Generate a longer password (24 characters):
 ```bash
 python main.py -l 24
 ```
 
-Generate a PIN (digits only):
+### Generate a PIN (digits only):
 ```bash
 python main.py -l 6 --no-uppercase --no-lowercase --no-symbols
 ```
 
-Generate a password excluding similar characters:
+### Generate a password excluding similar characters:
 ```bash
 python main.py --no-similar
 ```
 
-Generate multiple passwords:
+### Generate multiple passwords:
 ```bash
 python main.py -c 5
 ```
 
-Save a password to history with a description:
+### Save a password to history with a description:
 ```bash
 python main.py -s -d "Gmail account"
 ```
 
-View password history:
+### View password history:
 ```bash
 python main.py --history
 ```
