@@ -95,3 +95,6 @@ The entropy calculation uses the character pool and password length
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+Have fun!
