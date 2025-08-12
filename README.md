@@ -91,10 +91,3 @@ All passwords are stored locally in a JSON file (password_history.json by defaul
 Only the first 4 characters of each password are shown when viewing history
 For maximum security, consider using this tool on an offline computer
 The entropy calculation uses the character pool and password length
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-Have fun!
